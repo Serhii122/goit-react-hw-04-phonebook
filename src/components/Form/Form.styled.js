@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-export const FormBox = styled.form`
+export const FormDiv = styled.form`
   border: 1px solid black;
   width: 300px;
   padding: 15px;
-
   input {
     font-size: 16px;
     display: block;
@@ -13,7 +12,6 @@ export const FormBox = styled.form`
     margin-bottom: 10px;
     margin-top: 5px;
   }
-
   button {
     width: 290px;
     height: 40px;

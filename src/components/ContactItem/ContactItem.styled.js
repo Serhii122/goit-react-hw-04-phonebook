@@ -1,11 +1,5 @@
 import styled from 'styled-components';
 
-export const StyledContacts = styled.ul`
-  font-size: 16px;
-  margin-top: 25px;
-  padding: 10px;
-`;
-
 export const ContactsItem = styled.li`
   display: flex;
   width: 300px;
@@ -13,9 +7,12 @@ export const ContactsItem = styled.li`
   align-items: center;
   padding: 10px;
  
-
   &:not(:last-child) {
     margin-bottom: 8px;
+  }
+
+  p {
+    margin: 0px;
   }
 
   button {
